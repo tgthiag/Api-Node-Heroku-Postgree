@@ -18,7 +18,7 @@ const pool = new Pool({
 pool.query(`
   CREATE TABLE IF NOT EXISTS items (
     id SERIAL PRIMARY KEY,
-    name VARCHAR(255) NOT NULL
+    name VARCHAR(255) NOT NULL,
     price INT
   )
 `);
