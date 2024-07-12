@@ -54,7 +54,7 @@ app.get("/items/:id", async (req, res) => {
 // POST route to create a new item
 app.post("/items", async (req, res) => {
   try {
-    const result = await pool.query('INSERT INTO items (name) VALUES ($1, $2) RETURNING *', [req.body.name, req.body.price]);
+    const result = await pool.query('INSERT INTO items (name, price) VALUES ($1, $2) RETURNING *', [req.body.name, req.body.price]);
     res.status(201).json(result.rows[0]);
   } catch (err) {
     res.status(500).send(err.message);
