@@ -7,7 +7,6 @@ This is a Node.js application deployed on Heroku using PostgreSQL as the databas
 - [Usage](#usage)
 - [Endpoints](#endpoints)
 - [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## Installation
