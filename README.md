@@ -57,6 +57,6 @@ This is a Node.js application deployed on Heroku using PostgreSQL as the databas
 
 ## Contact
 
-Thiago Carvalho - [Your Email](mailto:tgthiag@gmail.com)
+Thiago Carvalho - [tgthiag@gmail.com](mailto:tgthiag@gmail.com)
 
 Project Link: [https://github.com/tgthiag/Api-Node-Heroku-Postgree](https://github.com/tgthiag/Api-Node-Heroku-Postgree)
